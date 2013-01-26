@@ -82,6 +82,13 @@ using a database, file system, o NoSQL provider.
 
 - [A Universal NoSQL Engine, Using a Tried and Tested Technology](http://www.mgateway.com/docs/universalNoSQL.pdf).
 - [Extreme Database programming with MUMPS Globals, Chapter 1](http://gradvs1.mgateway.com/download/extreme1.pdf).
+- [Healthcare needs the help of the Node.js Community](http://robtweed.wordpress.com/2013/01/26/to-the-node-js-community-healthcare-needs-your-help/).
+- [A Phoenix rises](http://robtweed.wordpress.com/2013/01/24/a-phoenix-rises/).
+
+## More mature modules
+
+- [ewdGateway2](https://github.com/robtweed/ewdGateway2): Node.js-based EWD Gateway for GT.M & Cache.
+- [NodeM](https://github.com/dlwicksell/nodem): A Node.js binding to the GT.M language and database.
 
 ## Inception
 
