@@ -1,6 +1,6 @@
 { "name": "simpleglobals"
 , "description": "Simple Globals implementation, inspired by Mumps Globals"
-, "keywords": [ "game", "chess", "javascript" ]
+, "keywords": [ "globals", "mumps", "javascript" ]
 , "version": "0.0.1alpha"
 , "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
 , "repository": { "type": "git", "url": "git://github.com/ajlopez/SimpleGlobals.git" }
