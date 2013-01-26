@@ -72,7 +72,25 @@ TBD
 
 ## To do
 
+- Persistence
 - Samples
+
+The current implementation is a naive one, all in-memory. It should be refactored to have a persistence store,
+using a database, file system, o NoSQL provider.
+
+## References
+
+- [A Universal NoSQL Engine, Using a Tried and Tested Technology](http://www.mgateway.com/docs/universalNoSQL.pdf).
+- [Extreme Database programming with MUMPS Globals, Chapter 1](http://gradvs1.mgateway.com/download/extreme1.pdf).
+
+## Inception
+
+This module was inspired by the discussion [Healthcare needs the help of the Node.js Community](https://mail.google.com/mail/#inbox/13c76a2c55670604) at
+Node.js mailing list, triggered by [@rtweed](https://twitter.com/rtweed).
+
+## Versions
+
+- 0.0.1: Published.
 
 ## Contribution
 
