@@ -62,3 +62,8 @@ assert.ok(obj[1235].name);
 assert.equal(obj[1234].name, 'Adam');
 assert.equal(obj[1235].name, 'Eve');
 
+// From Object
+
+db.node('customers', 1235).fromObject( { name: 'Abel', age: 600 } );
+assert.equal(db.node('customers', 1235, 'name').value(), 'Abel');
+assert.equal(db.node('customers', 1235, 'age').value(), 600);
