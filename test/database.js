@@ -15,13 +15,13 @@ assert.ok(db);
 
 // First node
 
-var customer = db.node('customer');
+var customer = db.node('customers');
 
 assert.ok(customer);
 
 // Name node
 
-var name = db.node('customer', 1234, 'name');
+var name = db.node('customers', 1234, 'name');
 
 assert.ok(name);
 
@@ -38,21 +38,21 @@ assert.equal(name.value(), 'Adam');
 
 // Get value
 
-assert.equal(db.node('customer', 1234, 'name').value(), 'Adam');
+assert.equal(db.node('customers', 1234, 'name').value(), 'Adam');
 
 // Unset value
 
 name.value(null);
-assert.equal(db.node('customer', 1234, 'name').value(), undefined);
+assert.equal(db.node('customers', 1234, 'name').value(), undefined);
 
 // Set second customer name
 
-db.node('customer', 1234, 'name').value('Adam');
-db.node('customer', 1235, 'name').value('Eve');
+db.node('customers', 1234, 'name').value('Adam');
+db.node('customers', 1235, 'name').value('Eve');
 
 // To Object
 
-var obj = db.node('customer').toObject();
+var obj = db.node('customers').toObject();
 
 assert.ok(obj);
 assert.ok(obj[1234]);
