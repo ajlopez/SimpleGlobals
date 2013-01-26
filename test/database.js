@@ -50,6 +50,14 @@ assert.equal(db.node('customers', 1234, 'name').value(), undefined);
 db.node('customers', 1234, 'name').value('Adam');
 db.node('customers', 1235, 'name').value('Eve');
 
+// Set and Get ages
+
+db.node('customers', 1234, 'age').value(800);
+db.node('customers', 1235, 'age').value(700);
+
+assert.equal(db.node('customers', 1234, 'age').value(), 800);
+assert.equal(db.node('customers', 1235, 'age').value(), 700);
+
 // To Object
 
 var obj = db.node('customers').toObject();
