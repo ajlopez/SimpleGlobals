@@ -85,7 +85,7 @@ using a database, file system, o NoSQL provider.
 - [Healthcare needs the help of the Node.js Community](http://robtweed.wordpress.com/2013/01/26/to-the-node-js-community-healthcare-needs-your-help/).
 - [A Phoenix rises](http://robtweed.wordpress.com/2013/01/24/a-phoenix-rises/).
 
-## More mature modules
+## Mumps database modules
 
 - [ewdGateway2](https://github.com/robtweed/ewdGateway2): Node.js-based EWD Gateway for GT.M & Cache.
 - [NodeM](https://github.com/dlwicksell/nodem): A Node.js binding to the GT.M language and database.
