@@ -45,3 +45,20 @@ assert.equal(db.node('customer', 1234, 'name').value(), 'Adam');
 name.value(null);
 assert.equal(db.node('customer', 1234, 'name').value(), undefined);
 
+// Set second customer name
+
+db.node('customer', 1234, 'name').value('Adam');
+db.node('customer', 1235, 'name').value('Eve');
+
+// To Object
+
+var obj = db.node('customer').toObject();
+
+assert.ok(obj);
+assert.ok(obj[1234]);
+assert.ok(obj[1235]);
+assert.ok(obj[1234].name);
+assert.ok(obj[1235].name);
+assert.equal(obj[1234].name, 'Adam');
+assert.equal(obj[1235].name, 'Eve');
+
