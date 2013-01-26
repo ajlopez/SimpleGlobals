@@ -1,0 +1,17 @@
+{ "name": "simpleglobals"
+, "description": "Simple Globals implementation, inspired by Mumps Globals"
+, "keywords": [ "game", "chess", "javascript" ]
+, "version": "0.0.1alpha"
+, "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
+, "repository": { "type": "git", "url": "git://github.com/ajlopez/SimpleGlobals.git" }
+, "main": "./lib/simpleglobals.js"
+, "engines": { "node": ">= 0.6.0 && < 0.9.0" }
+, "scripts": {
+    "test": "node ./test.js"
+  }
+, "dependencies": {
+    "simpleboard": "*"
+  }
+, "devDependencies": {
+  }
+}
